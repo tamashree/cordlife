@@ -32,15 +32,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="footer_block">
                         <h2>Quick Links </h2>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Resources</a></li>
-                            <li><a href="#">Media Centre</a></li>
-                            <li><a href="#">InfoGraphics</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
+                        <?php wp_nav_menu( array( 'container' => '', 'theme_location' => 'inner_bottom', 'menu_class' => '') ); ?>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6">
@@ -97,7 +89,8 @@
     $(document).ready(function(){
         $('.toggle').click(function(){
             $('.menu').slideToggle();
-        })
+        });
+        $(".current_page_item").addClass("active");
     });
     AOS.init({
         easing: 'ease-in-out-sine'

@@ -1,36 +1,26 @@
 <section class="testimonial padd">
     <div class="container">
         <ul class="testimonial_slider">
-            <li>
-                <div class="head_title">
-                    <h2 class="title">What our patients say</h2>
-                </div>
-                <figure class="client_pic"><img src="<?php bloginfo('template_directory'); ?>/images/test1.jpg"></figure>
-                <h3>Sushama Agarwal</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
-                    here, content here', making it look like readable English.</p>
-            </li>
-            <li>
-                <div class="head_title">
-                    <h2 class="title">What our patients say</h2>
-                </div>
-                <figure class="client_pic"><img src="<?php bloginfo('template_directory'); ?>/images/test2.jpg"></figure>
-                <h3>Sushama Agarwal</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
-                    here, content here', making it look like readable English.</p>
-            </li>
-            <li>
-                <div class="head_title">
-                    <h2 class="title">What our patients say</h2>
-                </div>
-                <figure class="client_pic"><img src="<?php bloginfo('template_directory'); ?>/images/test3.jpg"></figure>
-                <h3>Sushama Agarwal</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
-                    here, content here', making it look like readable English.</p>
-            </li>
+            <?php
+            $args = array(
+                'showposts'   => -1,
+                'post_type'     => 'testimonials',
+                'post_status'      => 'publish');
+            query_posts( $args );
+            while (have_posts($args)) : the_post();
+                $image = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID),'full');
+                $imageId = get_post_thumbnail_id( $post->ID );
+                $imageAlt = get_post_meta($imageId, '_wp_attachment_image_alt', true);
+                ?>
+                <li>
+                    <div class="head_title">
+                        <h2 class="title">What our patients say</h2>
+                    </div>
+                    <figure class="client_pic"><img src="<?php echo $image[0]; ?>" alt="<?php echo $imageAlt; ?>"></figure>
+                    <h3><?php the_title();?></h3>
+                    <p><?php the_content();?></p>
+                </li>
+            <?php endwhile; ?>
         </ul>
     </div>
 </section>

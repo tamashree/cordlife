@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a78130f4-b4e8-47e1-964e-37282ddaaaa0" name="Default Changelist" comment="" />
+    <list default="true" id="a78130f4-b4e8-47e1-964e-37282ddaaaa0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cordlife/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cordlife/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cordlife/testimonial.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/testimonial.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567494105200</updated>
       <workItem from="1567494126624" duration="12497000" />
-      <workItem from="1567574698127" duration="14841000" />
+      <workItem from="1567574698127" duration="18990000" />
     </task>
     <servers />
   </component>
