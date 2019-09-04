@@ -130,34 +130,73 @@ $options[] = array( "name" => "Custom Number",
 $lnum=of_get_option('lycust_no');	
 for ($i=1;$i<=$lnum	;$i++)
 {
-$options[] = array( "name" => "Image $i",
-					"desc" => "Upload a desired image.",
-					"id" => "lylogoimg_$i",
-					"std" => "",
-					"type" => "upload");
-$options[] = array( "name" => "Image Title $i",
-					"desc" => "Enter your desired banner title.",
-					"id" => "lytitle_$i",
-					"std" => "",
-					"type" => "textarea");
-$options[] = array( "name" => "Image Description $i",
-                    "desc" => "Enter the desired banner description.",
-                    "id" => "lydesc_$i",
-                    "std" => "",
-                    "type" => "textarea");
-$options[] = array( "name" => "Image Button Text $i",
-                    "desc" => "Enter the desired button text.",
-                    "id" => "lybuttontext_$i",
-                    "std" => "",
-                    "type" => "text");
-$options[] = array( "name" => "Image Link $i",
-					"desc" => "Enter the link for the button.",
-					"id" => "lybuttonlink_$i",
-					"std" => "",
-					"type" => "text");
+    $options[] = array( "name" => "Image $i",
+                        "desc" => "Upload a desired image.",
+                        "id" => "lylogoimg_$i",
+                        "std" => "",
+                        "type" => "upload");
+    $options[] = array( "name" => "Image Title $i",
+                        "desc" => "Enter your desired banner title.",
+                        "id" => "lytitle_$i",
+                        "std" => "",
+                        "type" => "textarea");
+    $options[] = array( "name" => "Image Description $i",
+                        "desc" => "Enter the desired banner description.",
+                        "id" => "lydesc_$i",
+                        "std" => "",
+                        "type" => "textarea");
+    $options[] = array( "name" => "Image Button Text $i",
+                        "desc" => "Enter the desired button text.",
+                        "id" => "lybuttontext_$i",
+                        "std" => "",
+                        "type" => "text");
+    $options[] = array( "name" => "Image Link $i",
+                        "desc" => "Enter the link for the button.",
+                        "id" => "lybuttonlink_$i",
+                        "std" => "",
+                        "type" => "text");
 }
 
-/*Opening Hours*/
+/*Homepage Quick Facts*/
+$options[] = array( "name" => "Homepage Quick Facts",
+                    "type" => "heading");
+$options[] = array( "name" => "Quick Facts Main Heading",
+                    "desc" => "Enter the main heading of quick facts.",
+                    "id" => "quick_facts_main_heading",
+                    "std" => "",
+                    "type" => "text");
+$options[] = array( "name" => "Quick Facts Sub Heading",
+                    "desc" => "Enter the sub heading of quick facts.",
+                    "id" => "quick_facts_sub_heading",
+                    "std" => "",
+                    "type" => "text");
+$options[] = array( "name" => "Number of Facts",
+                    "desc" => "Enter the number of quick facts.",
+                    "id" => "quick_fact_no",
+                    "std" => "",
+                    "type" => "text");
+
+$lnum=of_get_option('quick_fact_no');
+for ($i=1;$i<=$lnum	;$i++)
+{
+    $options[] = array( "name" => "Quick Fact Icon $i",
+                        "desc" => "Upload a desired quick fact icon.",
+                        "id" => "quick_fact_icon_$i",
+                        "std" => "",
+                        "type" => "upload");
+    $options[] = array( "name" => "Title $i",
+                        "desc" => "Enter your desired quick fact title.",
+                        "id" => "quick_fact_title_$i",
+                        "std" => "",
+                        "type" => "text");
+    $options[] = array( "name" => "Description $i",
+                        "desc" => "Enter the desired quick fact description.",
+                        "id" => "quick_fact_desc_$i",
+                        "std" => "",
+                        "type" => "textarea");
+}
+
+/*Homepage Reporting Section*/
 $options[] = array( "name" => "Home Page Reporting Section",
     "type" => "heading");
 $options[] = array( "name" => "Image",
