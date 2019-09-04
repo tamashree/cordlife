@@ -16,51 +16,6 @@
                         </div>
                     </li>
                 <?php } ?>
-<!--                <li class="col-lg-4 col-md-4 col-sm-6">-->
-<!--                    <small class="quick_icons"><img src="--><?php //bloginfo('template_directory'); ?><!--/images/more_icons/quick-visits.png"></small>-->
-<!--                    <div class="quick_info">-->
-<!--                        <h2>Quick Visits</h2>-->
-<!--                        <p>It is a long established fact that a reader-->
-<!--                            will be distracted by the readable content of-->
-<!--                            a page when looking at its layout.</p>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="col-lg-4 col-md-4 col-sm-6">-->
-<!--                    <small class="quick_icons"><img src="--><?php //bloginfo('template_directory'); ?><!--/images/more_icons/card-payments.png"></small>-->
-<!--                    <div class="quick_info">-->
-<!--                        <h2>Card Payments</h2>-->
-<!--                        <p>It is a long established fact that a reader-->
-<!--                            will be distracted by the readable content of-->
-<!--                            a page when looking at its layout.</p>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="col-lg-4 col-md-4 col-sm-6">-->
-<!--                    <small class="quick_icons"><img src="--><?php //bloginfo('template_directory'); ?><!--/images/more_icons/patients-history.png"></small>-->
-<!--                    <div class="quick_info">-->
-<!--                        <h2>Patients History</h2>-->
-<!--                        <p>It is a long established fact that a reader-->
-<!--                            will be distracted by the readable content of-->
-<!--                            a page when looking at its layout.</p>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="col-lg-4 col-md-4 col-sm-6">-->
-<!--                    <small class="quick_icons"><img src="--><?php //bloginfo('template_directory'); ?><!--/images/more_icons/natural-medicine.png"></small>-->
-<!--                    <div class="quick_info">-->
-<!--                        <h2>Natural Medicine</h2>-->
-<!--                        <p>It is a long established fact that a reader-->
-<!--                            will be distracted by the readable content of-->
-<!--                            a page when looking at its layout.</p>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="col-lg-4 col-md-4 col-sm-6">-->
-<!--                    <small class="quick_icons"><img src="--><?php //bloginfo('template_directory'); ?><!--/images/more_icons/short-terms.png"></small>-->
-<!--                    <div class="quick_info">-->
-<!--                        <h2>Short Terms</h2>-->
-<!--                        <p>It is a long established fact that a reader-->
-<!--                            will be distracted by the readable content of-->
-<!--                            a page when looking at its layout.</p>-->
-<!--                    </div>-->
-<!--                </li>-->
             </ul>
         </div>
     </div>
