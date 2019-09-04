@@ -1,0 +1,10 @@
+<?php get_header(); ?>
+<?php include(TEMPLATEPATH.'/banner.php'); ?>
+<?php include(TEMPLATEPATH.'/service_section.php'); ?>
+<?php include(TEMPLATEPATH.'/about_section.php'); ?>
+<?php include(TEMPLATEPATH.'/reporting_section.php'); ?>
+<?php include(TEMPLATEPATH.'/quick_facts.php'); ?>
+<?php include(TEMPLATEPATH.'/testimonial.php'); ?>
+<?php include(TEMPLATEPATH.'/blog.php'); ?>
+<?php include(TEMPLATEPATH.'/newsletter.php'); ?>
+<?php get_footer(); ?>

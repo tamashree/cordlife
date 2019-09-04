@@ -1,0 +1,260 @@
+
+@charset "utf-8";
+
+
+@media only screen and (max-width:1200px){
+    .container{max-width: 96%}
+	}
+
+@media only screen and (max-width: 1024px){
+    .toggle{
+        display: block;
+        position: absolute;
+        right: 18px;
+        top: 16px;
+        font-size: 38px;
+    }
+
+    .about_rt_text h3 {
+        font-size: 24px;
+    }
+
+    .about_rt_text {
+        position: static;
+        top:0;
+        transform: none;
+        padding: 0 0 0 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .menu {
+        position: absolute;
+        width: 300px;
+        right: 0;
+        z-index: 110;
+        background: #fff;
+        padding: 15px;
+        display: none;
+        top: 74px;
+    }
+
+    .menu li {
+        display: block;
+        margin: 0 0 8px;
+        border-bottom: 1px solid #ccc;
+        padding: 5px 10px;
+    }
+
+    .logo {
+        display: block;
+        float: left;
+        width: 95px;
+    }
+
+    .banner_content h2{
+        font-size: 50px;
+    }
+
+    .banner_content h2 span {
+        font-size: 50px;
+    }
+
+    .banner_content h1 {
+        font-size: 30px;
+    }
+
+    
+    .banner_info_section{
+        left: 40px;
+    }
+
+    .slick-prev:before{
+        font-size: 40px;
+        left: 20px;
+    }
+
+    .slick-next:before{
+        font-size: 40px;
+        right: 20px;
+    }
+
+    .slick-arrow{
+        height:80px;
+        width:80px;
+    }
+
+    h2.title{
+        font-size: 28px;
+    }
+
+
+    .service_list h3 {
+        margin: 0 0 10px;
+        min-height: 38px;
+    }
+
+    h3.title{
+        font-size: 16px;
+    }
+
+    .quick_links_list ul li {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .quick_links_list {
+        padding: 0;
+    }
+
+    .news_letter small{
+        float: none;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .news_letter .book_appointment{
+        margin: 0px auto;
+        float: none
+    }
+
+    .news_letter_section {
+        padding: 20px 0;
+    }
+
+    .slick-dots {
+        text-align: center;
+        padding: 30px 0 20px;
+    }
+
+    .padd {
+        padding: 40px 0;
+    }
+
+    .head_title {
+        margin: 0 0 40px;
+        padding: 0 20px;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+
+    .head_title {
+        margin: 0 0 40px;
+        padding: 0 20px;
+    }
+
+    .news_letter small{
+        float: none;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .news_letter .book_appointment{
+        margin: 0px auto;
+        float: none
+    }
+
+    .news_letter_section {
+        padding: 20px 0;
+    }
+
+    .schedule_info{
+        padding: 0 0 20px;
+    }
+
+    .quick_links_list {
+        padding: 0;
+    }
+
+    .top_left.top_menu li:last-child{
+        display: none !important
+    }
+
+    .top_left.top_menu li:nth-child(2):before{
+        display: none !important
+    }
+
+
+    .top_right.top_menu{
+        display: none
+    }
+
+    .top_left {
+        float: none;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 585px){
+    .banner_content h1{
+        display: none
+    }
+
+    h2.title {
+        font-size: 22px;
+    }
+
+    .banner_content p{
+        display: none
+    }
+
+    .banner_content h2{
+        font-size: 25px;
+    }
+
+    .banner_content h2 span {
+        font-size: 25px;
+    }
+
+    .banner_info_section{
+        left: 40px;
+    }
+
+    .slick-prev:before{
+        font-size: 40px;
+        left: 20px;
+    }
+
+    .slick-next:before{
+        font-size: 40px;
+        right: 20px;
+    }
+
+    .slick-arrow{
+        height:80px;
+        width:80px;
+    }
+
+
+    .time_section h2{
+        text-align: center;
+    }
+
+    .time_section p{
+        text-align: center;
+    }
+
+    .quick_title{
+        font-size: 16px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 479px){
+
+    .quick_icons img{
+        width:25px;
+    }
+
+    .menu {
+        position: absolute;
+        width: 100%;
+    }
+
+    .top_left.top_menu li:nth-child(1):before{
+        display: none !important
+    }
+}
