@@ -82,4 +82,36 @@ function register_services() {
     );
     register_post_type( 'services' , $args );
 }
+
+/* Register Custom Post Type Press Releases  */
+add_action('init', 'register_press_releases');
+function register_press_releases() {
+    $labels = array(
+        'name' => _x('Press Releases', 'post type general name'),
+        'singular_name' => _x('Press Release', 'post type singular name'),
+        'add_new' => _x('Add New', 'Press Release'),
+        'add_new_item' => __('Add New Press Release'),
+        'edit_item' => __('Edit Press Release'),
+        'new_item' => __('New Press Release'),
+        'view_item' => __('View Press Release'),
+        'search_items' => __('Search Press Release'),
+        'not_found' =>  __('Nothing found'),
+        'not_found_in_trash' => __('Nothing found in Trash'),
+        'parent_item_colon' => ''
+    );
+
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_ui' => true,
+        'query_var' => true,
+        'rewrite' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'menu_position' => null,
+        'supports' => array('title','editor','thumbnail','custom-fields')
+    );
+    register_post_type( 'press_releases' , $args );
+}
 ?>
