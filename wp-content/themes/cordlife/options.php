@@ -157,45 +157,6 @@ for ($i=1;$i<=$lnum	;$i++)
                         "type" => "text");
 }
 
-/*Homepage Quick Facts*/
-$options[] = array( "name" => "Homepage Quick Facts",
-                    "type" => "heading");
-$options[] = array( "name" => "Quick Facts Main Heading",
-                    "desc" => "Enter the main heading of quick facts.",
-                    "id" => "quick_facts_main_heading",
-                    "std" => "",
-                    "type" => "text");
-$options[] = array( "name" => "Quick Facts Sub Heading",
-                    "desc" => "Enter the sub heading of quick facts.",
-                    "id" => "quick_facts_sub_heading",
-                    "std" => "",
-                    "type" => "text");
-$options[] = array( "name" => "Number of Facts",
-                    "desc" => "Enter the number of quick facts.",
-                    "id" => "quick_fact_no",
-                    "std" => "",
-                    "type" => "text");
-
-$lnum=of_get_option('quick_fact_no');
-for ($i=1;$i<=$lnum	;$i++)
-{
-    $options[] = array( "name" => "Quick Fact Icon $i",
-                        "desc" => "Upload a desired quick fact icon.",
-                        "id" => "quick_fact_icon_$i",
-                        "std" => "",
-                        "type" => "upload");
-    $options[] = array( "name" => "Title $i",
-                        "desc" => "Enter your desired quick fact title.",
-                        "id" => "quick_fact_title_$i",
-                        "std" => "",
-                        "type" => "text");
-    $options[] = array( "name" => "Description $i",
-                        "desc" => "Enter the desired quick fact description.",
-                        "id" => "quick_fact_desc_$i",
-                        "std" => "",
-                        "type" => "textarea");
-}
-
 /*Homepage Reporting Section*/
 $options[] = array( "name" => "Home Page Reporting Section",
     "type" => "heading");
@@ -252,6 +213,45 @@ $options[] = array( "name" => "Other Working Days Time",
                     "std" => "",
                     "class" => "",
                     "type" => "text");
+
+/*Homepage Quick Facts*/
+$options[] = array( "name" => "Homepage Quick Facts",
+                    "type" => "heading");
+$options[] = array( "name" => "Quick Facts Main Heading",
+                    "desc" => "Enter the main heading of quick facts.",
+                    "id" => "quick_facts_main_heading",
+                    "std" => "",
+                    "type" => "text");
+$options[] = array( "name" => "Quick Facts Sub Heading",
+                    "desc" => "Enter the sub heading of quick facts.",
+                    "id" => "quick_facts_sub_heading",
+                    "std" => "",
+                    "type" => "text");
+$options[] = array( "name" => "Number of Facts",
+                    "desc" => "Enter the number of quick facts.",
+                    "id" => "quick_fact_no",
+                    "std" => "",
+                    "type" => "text");
+
+$lnum=of_get_option('quick_fact_no');
+for ($i=1;$i<=$lnum	;$i++)
+{
+    $options[] = array( "name" => "Quick Fact Icon $i",
+                        "desc" => "Upload a desired quick fact icon.",
+                        "id" => "quick_fact_icon_$i",
+                        "std" => "",
+                        "type" => "upload");
+    $options[] = array( "name" => "Title $i",
+                        "desc" => "Enter your desired quick fact title.",
+                        "id" => "quick_fact_title_$i",
+                        "std" => "",
+                        "type" => "text");
+    $options[] = array( "name" => "Description $i",
+                        "desc" => "Enter the desired quick fact description.",
+                        "id" => "quick_fact_desc_$i",
+                        "std" => "",
+                        "type" => "textarea");
+}
 
 return $options;
 }

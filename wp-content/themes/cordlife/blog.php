@@ -2,8 +2,12 @@
     <div class="container">
         <div class="head_title">
             <h2 class="title">Latest News</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The
-                point of using Lorem Ipsum.</p>
+            <?php
+            $diagnosticsConnectPageId = '13';
+            $diagnosticsConnectPageId = get_post($diagnosticsConnectPageId);
+            $diagnosticsConnectPageContent = $diagnosticsConnectPageId->post_content;
+            ?>
+            <p><?php echo $diagnosticsConnectPageContent; ?></p>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6 aos-item"  data-aos="flip-left"  data-aos-duration="500">
