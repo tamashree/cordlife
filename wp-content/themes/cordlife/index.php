@@ -6,5 +6,5 @@
 <?php include(TEMPLATEPATH.'/quick_facts.php'); ?>
 <?php include(TEMPLATEPATH.'/testimonial.php'); ?>
 <?php include(TEMPLATEPATH.'/blog.php'); ?>
-<?php include(TEMPLATEPATH.'/newsletter.php'); ?>
+<?php include(TEMPLATEPATH.'/book_appointment.php'); ?>
 <?php get_footer(); ?>

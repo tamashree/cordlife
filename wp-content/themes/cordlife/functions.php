@@ -12,6 +12,15 @@ if ( function_exists( 'register_nav_menu' ) ) {
 if ( function_exists( 'register_nav_menu' ) ) {
     register_nav_menu( 'inner_bottom', ' Footer menu' );
 }
+/*Newsletter Widget*/
+if ( function_exists('register_sidebar') )
+    register_sidebar(array('name'=>'Newsletter Widget',
+        'id' => 'newsletter_widget',
+        'before_widget' => '',
+        'before_title' => '',
+        'after_widget' => '',
+        'after_title' => '',
+    ));
 /*Theme Options*/
 if ( !function_exists( 'optionsframework_init' ) ) {
     define('OPTIONS_FRAMEWORK_URL', get_template_directory_uri() . '/admin/');

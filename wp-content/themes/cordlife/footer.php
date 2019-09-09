@@ -40,8 +40,12 @@
                         <h2>Subscribe for Newsletter</h2>
                         <div class="footer_news_let">
 
-                            <input type="email" placeholder="Email Id">
-                            <button><i class="fa fa-paper-plane"></i></button>
+<!--                            <input type="email" placeholder="Email Id">-->
+<!--                            --><?php //if ( is_active_sidebar( 'newsletter_widget' ) ) : ?>
+<!--                                    --><?php //dynamic_sidebar( 'newsletter_widget' ); ?>
+<!--                            --><?php //endif; ?>
+<!--                            <button><i class="fa fa-paper-plane"></i></button>-->
+                            <?php echo do_shortcode('[wpens_easy_newsletter firstname="no" lastname="no" button_text="<i class=\'fa fa-paper-plane\'></i>"]'); ?>
                         </div>
                         <div class="footer_social top_right top_menu">
                             <h2>Follow Us on</h2>
@@ -91,6 +95,7 @@
             $('.menu').slideToggle();
         });
         $(".current_page_item").addClass("active");
+        $(".wpens_email").attr("placeholder", "Email ID");
     });
     AOS.init({
         easing: 'ease-in-out-sine'

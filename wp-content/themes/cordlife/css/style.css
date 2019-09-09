@@ -1010,6 +1010,21 @@ font-family: 'Raleway', sans-serif; */
     text-transform: uppercase;
 }
 
+/* Footer Newsletter new CSS override */
+form#easy-newsletter-form .input-field label {
+    display: none;
+}
+
+form#easy-newsletter-form .input-field input[type=text] {
+    width: calc(100% - 58px);
+    height: 40px;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10px;
+}
+
 /* Press Release */
 .about_box.press_sec .about_rt_text span {
     font-size: 16px;

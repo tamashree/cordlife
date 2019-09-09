@@ -5,8 +5,12 @@
             while (have_posts($args)) : the_post();
                 $image = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID),'full');
                 $imageId = get_post_thumbnail_id( $post->ID );
-                $imageAlt = get_post_meta($imageId, '_wp_attachment_image_alt', true); ?>
-                <figure><img src="<?php echo $image[0]; ?>" alt="<?php echo $imageAlt; ?>"></figure>
+                $imageAlt = get_post_meta($imageId, '_wp_attachment_image_alt', true);
+                if($image[0] != "") { ?>
+                    <figure><img src="<?php echo $image[0]; ?>" alt="<?php echo $imageAlt; ?>"></figure>
+                <?php } else { ?>
+                    <figure><img src="<?php bloginfo('template_directory'); ?>/images/innerbanner.jpg" alt="Cordlife"></figure>
+                <?php } ?>
                 <div class="banner_info_section">
                     <div class="banner_box">
                         <div class="container">

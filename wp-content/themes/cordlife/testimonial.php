@@ -18,7 +18,7 @@
                     </div>
                     <figure class="client_pic"><img src="<?php echo $image[0]; ?>" alt="<?php echo $imageAlt; ?>"></figure>
                     <h3><?php the_title();?></h3>
-                    <p><?php the_content();?></p>
+                    <?php the_content();?>
                 </li>
             <?php endwhile; ?>
         </ul>
