@@ -22,32 +22,17 @@
                     $image = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID),'full');
                     $imageId = get_post_thumbnail_id( $post->ID );
                     $imageAlt = get_post_meta($imageId, '_wp_attachment_image_alt', true); ?>
-           
-
-
-
                     <div class="col-lg-4 col-md-4 col-sm-6 aos-item"  data-aos="flip-left"  data-aos-duration="500">
                         <a href="<?php the_permalink(); ?>" class="blog_box">
                             <div class="blog_img">
                                 <img src="<?php echo $image[0]; ?>" alt="<?php echo $imageAlt; ?>">
-                                <div class="blog_head_btm">
-                                    <h3><?php the_title(); ?></h3>
-                                </div>
-
-                                <div class="blog_info_hover">
-                                    <div class="blog_info_inner">
-                                    <h3><?php the_title(); ?></h3>
-                                    <?php $content = get_the_content();
-                                    $content = strip_tags($content);?>
-                                    <p><?php echo substr($content, 0, 96); ?>...</p>
-                                    </div>
-                                </div>
-
+                                <small href="#" class="view_btn ion-ios-eye-outline"></small>
                             </div>
-                            <div class="blog_btm_outer">
-                                <span><i class="fa fa-calendar"></i><?php echo date("j F, Y") ?></span>
-                                <span><i class="fa fa-user"></i>Author</span>
-                            </div>
+                            <h3><?php the_title(); ?></h3>
+                            <span><?php echo date("j F, Y") ?></span>
+                            <?php $content = get_the_content();
+                            $content = strip_tags($content);?>
+                            <p><?php echo substr($content, 0, 96); ?>...</p>
                         </a>
                     </div>
                 <?php endwhile; ?>

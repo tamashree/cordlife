@@ -1,5 +1,4 @@
-<?php /* Template Name: Press Release */
-get_header(); ?>
+<?php get_header(); ?>
 <?php include(TEMPLATEPATH.'/inner_banner.php'); ?>
 <section class="about_box press_sec padd">
     <div class="head_title">

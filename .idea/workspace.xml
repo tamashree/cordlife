@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78130f4-b4e8-47e1-964e-37282ddaaaa0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/404_bkp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/css/404.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/css/masonry-docs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/css/style_2019-09-11.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/css/style_bkp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/images/404/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/images/404/emoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/js/isotope-docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/templates/blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/templates/infographics.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cordlife/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cordlife/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cordlife/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cordlife/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cordlife/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cordlife/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cordlife/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cordlife/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cordlife/press_release.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +46,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/cordlife" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\cordlife\wp-content\themes\cordlife" />
+      <recent name="C:\xampp\htdocs\cordlife\wp-content\themes\cordlife\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +84,9 @@
       <workItem from="1568003586177" duration="3595000" />
       <workItem from="1568008942524" duration="2484000" />
       <workItem from="1568014911008" duration="9528000" />
-      <workItem from="1568090463926" duration="412000" />
+      <workItem from="1568090463926" duration="20879000" />
+      <workItem from="1568175465262" duration="9779000" />
+      <workItem from="1568261851321" duration="5266000" />
     </task>
     <servers />
   </component>

@@ -14,15 +14,39 @@
        
    });
 
-   	
-$('ul.tabs li').click(function(){
-    var index = $(this).index();
-    $('ul.tabs li').removeClass('active');
-    $(this).addClass('active');
-    $('.tab_content').removeClass('active');
-    $('.tab_content:eq(' + index + ')').addClass('active');
-});
 
+
+   $('.infograph_info').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    adaptiveHeight: true,
+    dots: false,
+    fade: true,
+    asNavFor: '.infograph_menus'
+  });
+  $('.infograph_menus').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    asNavFor: '.infograph_info',
+    dots: false,
+    centerMode: false,
+    focusOnSelect: true,
+    adaptiveHeight: true,
+  });
+
+
+
+/*    	
+$('.infograph_left ul li').click(function(){
+    var index = $(this).index();
+    $('.infograph_left ul li').removeClass('active');
+    $(this).addClass('active');
+    $('.infograph_content').removeClass('active');
+    $('.infograph_content:eq(' + index + ')').addClass('active');
+});
+ */
 
 
    $(window).resize(function(){
@@ -66,7 +90,7 @@ $('ul.tabs li').click(function(){
             breakpoint: 1024,
             settings: {
               slidesToShow: 3,
-              slidesToScroll: 1,
+              slidesToScroll: 3,
               infinite: true,
               dots: true
             }
@@ -74,14 +98,14 @@ $('ul.tabs li').click(function(){
           {
             breakpoint: 768,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1
+              slidesToShow: 2,
+              slidesToScroll: 2
             }
           },
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 1
             }
           }

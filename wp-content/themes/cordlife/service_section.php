@@ -17,7 +17,7 @@
             <ul class="service_list">
                 <?php while (have_posts($args)) : the_post(); ?>
                     <li>
-                        <a href="<?php the_permalink(); ?>">
+                        <a href="#">
                             <figure><img src="<?php echo get_field('small_icon')['url']; ?>" alt="<?php the_title(); ?>"></figure>
                             <h3 class="title"><?php the_title(); ?></h3>
                             <p><?php echo get_field('short_description'); ?></p>

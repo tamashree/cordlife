@@ -12,6 +12,7 @@
     <link href="<?php bloginfo('template_directory'); ?>/css/slick.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/source/jquery.fancybox.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/css/aos.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory'); ?>/css/masonry-docs.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/css/bootstrap-grid.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/css/style.css" rel="stylesheet">
